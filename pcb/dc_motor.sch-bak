@@ -3968,10 +3968,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf" H 4200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L Device:R R?
 U 1 1 5F680734
 P 2950 5250
-F 0 "R13" V 3000 5100 50  0000 R CNN
+F 0 "R?" V 3000 5100 50  0000 R CNN
 F 1 "R" V 3000 5450 50  0000 R CNN
 F 2 "" V 2880 5250 50  0001 C CNN
 F 3 "~" H 2950 5250 50  0001 C CNN
