@@ -394,8 +394,8 @@ Text Label 8800 2400 0    50   ~ 0
 A1
 Text Label 9100 2400 0    50   ~ 0
 A0
-Text Notes 8750 1950 0    50   ~ 0
-I2C ADDRESS
+Text Notes 8950 1950 0    50   ~ 0
+(*)
 Wire Wire Line
 	9500 1650 9500 1550
 Wire Wire Line
@@ -446,7 +446,7 @@ L Device:LED D4
 U 1 1 5F8FDE44
 P 5500 5300
 F 0 "D4" V 5539 5182 50  0000 R CNN
-F 1 "LEFT" V 5448 5182 50  0000 R CNN
+F 1 "Blue led 0603" V 5448 5182 50  0001 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 5500 5300 50  0001 C CNN
 F 3 "~" H 5500 5300 50  0001 C CNN
 F 4 "LTST-C194TBKT" H 5500 5300 50  0001 C CNN "Manufacturer Part Number"
@@ -511,14 +511,7 @@ F 3 "" H 5050 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 2500 5050 2600
-Wire Wire Line
-	5050 2200 5050 2500
-Connection ~ 5050 2500
-Wire Wire Line
 	5550 2400 5550 2500
-Wire Wire Line
-	5550 2500 5050 2500
 $Comp
 L power:+5V #PWR08
 U 1 1 5F9B9EEB
@@ -561,7 +554,7 @@ L Device:LED D2
 U 1 1 5F9EF592
 P 6000 2250
 F 0 "D2" V 6100 2200 50  0000 R CNN
-F 1 "Power" V 5650 2350 50  0000 R CNN
+F 1 "Green led 0603" V 5650 2350 50  0001 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 6000 2250 50  0001 C CNN
 F 3 "~" H 6000 2250 50  0001 C CNN
 F 4 "LTST-C191KGKT" H 6000 2250 50  0001 C CNN "Manufacturer Part Number"
@@ -3755,21 +3748,6 @@ Connection ~ 7450 1950
 Connection ~ 6950 1750
 Wire Wire Line
 	6950 1750 7800 1750
-$Comp
-L Device:R R12
-U 1 1 5F8FD498
-P 5500 5000
-F 0 "R12" H 5430 4954 50  0000 R CNN
-F 1 "3k3" H 5430 5045 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 5000 50  0001 C CNN
-F 3 "~" H 5500 5000 50  0001 C CNN
-F 4 "RC0603JR-073K3L" H 5500 5000 50  0001 C CNN "Manufacturer Part Number"
-F 5 "311-3.3KGRCT-ND" H 5500 5000 50  0001 C CNN "Supplier 1 Part Number"
-	1    5500 5000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5500 4600 5500 4850
 Wire Wire Line
 	4850 4600 5500 4600
 $Comp
@@ -3783,36 +3761,8 @@ F 3 "" H 5150 5550 50  0001 C CNN
 	1    5150 5550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R11
-U 1 1 5F8FD984
-P 5150 5000
-F 0 "R11" H 5080 4954 50  0000 R CNN
-F 1 "3k3" H 5080 5045 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 5000 50  0001 C CNN
-F 3 "~" H 5150 5000 50  0001 C CNN
-F 4 "RC0603JR-073K3L" H 5150 5000 50  0001 C CNN "Manufacturer Part Number"
-F 5 "311-3.3KGRCT-ND" H 5150 5000 50  0001 C CNN "Supplier 1 Part Number"
-	1    5150 5000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5150 5450 5150 5550
-$Comp
-L Device:LED D3
-U 1 1 5F8FE631
-P 5150 5300
-F 0 "D3" V 5200 5550 50  0000 R CNN
-F 1 "RIGTH" V 5100 5600 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 5150 5300 50  0001 C CNN
-F 3 "~" H 5150 5300 50  0001 C CNN
-F 4 "LTST-C191KSKT" H 5150 5300 50  0001 C CNN "Manufacturer Part Number"
-F 5 "160-1448-1-ND" H 5150 5300 50  0001 C CNN "Supplier 1 Part Number"
-	1    5150 5300
-	0    -1   -1   0   
-$EndComp
-Text Notes 5050 4600 0    50   ~ 0
-OUTPUT DIRECTION
+Text Notes 5400 4400 0    50   ~ 0
+Leds indicate\noutput direction
 $Comp
 L Device:C C12
 U 1 1 5FB5501B
@@ -4009,7 +3959,7 @@ F 5 "296-29100-1-ND" H 8200 2050 50  0001 C CNN "Supplier 1 Part Number"
 	1    8200 2050
 	1    0    0    -1  
 $EndComp
-Text Notes 7050 5850 0    50   ~ 0
+Text Notes 7050 5900 0    50   ~ 0
 Slew Rate
 Text Notes 9950 5850 0    50   ~ 0
 Slew Rate
@@ -4027,14 +3977,12 @@ Text Label 2650 4750 0    50   ~ 0
 EN_1
 Text Label 2650 5400 0    50   ~ 0
 EN_2
-Text Notes 2550 5850 0    50   ~ 0
+Text Notes 2550 5900 0    50   ~ 0
 Enable outputs\nInvidual or Paralell\nwith EN_1
-Wire Wire Line
-	5150 4700 5150 4850
 Wire Wire Line
 	4850 4700 5150 4700
 $Bitmap
-Pos 9850 2700
+Pos 10000 2700
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 00 00 00 00 7D 08 02 00 00 00 C2 DB 2A 
@@ -4380,8 +4328,8 @@ B0 00 C0 E8 D3 60 01 80 D1 A7 C1 74 81 7A 0F BD DE 41 61 D1 47 75 81 EC ED ED BB
 4F 1A 2D 8A 6E 40 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 9600 2450 0    50   ~ 0
-I2C ADDRESS
+Text Notes 9650 2450 0    50   ~ 0
+(*)
 $Comp
 L power:Vdrive #PWR019
 U 1 1 5F689F04
@@ -4502,7 +4450,7 @@ L Device:Q_PMOS_GDS Q1
 U 1 1 5F699BCE
 P 2350 1950
 F 0 "Q1" V 2692 1950 50  0000 C CNN
-F 1 "Q_PMOS_GDS" V 2601 1950 50  0000 C CNN
+F 1 "IPD90P03P4L04" V 2600 2050 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 2550 2050 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-IPD90P03P4L_04-DS-v01_00-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e8373a27c4&ack=t" H 2350 1950 50  0001 C CNN
 F 4 "IPD90P03P4L04ATMA1" H 2350 1950 50  0001 C CNN "Manufacturer Part Number"
@@ -4542,47 +4490,11 @@ Wire Wire Line
 	2650 4750 2650 4800
 Wire Wire Line
 	2650 5300 2650 5400
-$Comp
-L Device:C C5
-U 1 1 5FA39240
-P 4650 2250
-F 0 "C5" H 4500 2150 50  0000 L CNN
-F 1 "100nF" V 4600 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 2100 50  0001 C CNN
-F 3 "~" H 4650 2250 50  0001 C CNN
-F 4 "GMK107B7104KAHT" H 4650 2250 50  0001 C CNN "Manufacturer Part Number"
-F 5 "587-3354-1-ND" H 4650 2250 50  0001 C CNN "Supplier 1 Part Number"
-	1    4650 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4250 2500 4250 2400
-Wire Wire Line
-	4250 2500 4450 2500
-Wire Wire Line
-	4450 2400 4450 2500
-Connection ~ 4450 2500
-Wire Wire Line
-	4450 2500 4650 2500
-Wire Wire Line
-	4650 2400 4650 2500
-Connection ~ 4650 2500
-Wire Wire Line
-	4650 2500 5050 2500
-Wire Wire Line
-	4250 2100 4250 1900
-Wire Wire Line
-	4650 2100 4650 1900
-Wire Wire Line
-	4650 1900 4750 1900
-Connection ~ 4650 1900
-Connection ~ 4450 1900
-Wire Wire Line
-	4450 1900 4650 1900
+	4450 2500 4450 2400
 Wire Wire Line
 	4450 2100 4450 1900
-Wire Wire Line
-	4250 1900 4450 1900
+Connection ~ 4450 1900
 $Comp
 L power:VCC #PWR07
 U 1 1 5F9B5859
@@ -4597,10 +4509,10 @@ $EndComp
 Wire Wire Line
 	4450 1750 4450 1900
 $Comp
-L Device:C C4
-U 1 1 5FA2F27C
+L Device:C C3
+U 1 1 5FA252F9
 P 4450 2250
-F 0 "C4" H 4300 2150 50  0000 L CNN
+F 0 "C3" H 4300 2150 50  0000 L CNN
 F 1 "100nF" V 4400 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 2100 50  0001 C CNN
 F 3 "~" H 4450 2250 50  0001 C CNN
@@ -4609,17 +4521,70 @@ F 5 "587-3354-1-ND" H 4450 2250 50  0001 C CNN "Supplier 1 Part Number"
 	1    4450 2250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 5450 5150 5550
+Wire Wire Line
+	5150 4700 5150 4750
 $Comp
-L Device:C C3
-U 1 1 5FA252F9
-P 4250 2250
-F 0 "C3" H 4100 2150 50  0000 L CNN
-F 1 "100nF" V 4200 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 2100 50  0001 C CNN
-F 3 "~" H 4250 2250 50  0001 C CNN
-F 4 "GMK107B7104KAHT" H 4250 2250 50  0001 C CNN "Manufacturer Part Number"
-F 5 "587-3354-1-ND" H 4250 2250 50  0001 C CNN "Supplier 1 Part Number"
-	1    4250 2250
-	1    0    0    -1  
+L Device:R R11
+U 1 1 5F8FD984
+P 5150 4900
+F 0 "R11" H 5080 4854 50  0000 R CNN
+F 1 "3k3" H 5080 4945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 4900 50  0001 C CNN
+F 3 "~" H 5150 4900 50  0001 C CNN
+F 4 "RC0603JR-073K3L" H 5150 4900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "311-3.3KGRCT-ND" H 5150 4900 50  0001 C CNN "Supplier 1 Part Number"
+	1    5150 4900
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5150 5150 5150 5050
+Wire Wire Line
+	5500 4600 5500 4750
+$Comp
+L Device:R R12
+U 1 1 5F8FD498
+P 5500 4900
+F 0 "R12" H 5430 4854 50  0000 R CNN
+F 1 "3k3" H 5430 4945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 4900 50  0001 C CNN
+F 3 "~" H 5500 4900 50  0001 C CNN
+F 4 "RC0603JR-073K3L" H 5500 4900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "311-3.3KGRCT-ND" H 5500 4900 50  0001 C CNN "Supplier 1 Part Number"
+	1    5500 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 5150 5500 5050
+$Comp
+L Device:LED D3
+U 1 1 5F8FE631
+P 5150 5300
+F 0 "D3" V 5200 5550 50  0000 R CNN
+F 1 "Yellow led 0603" V 5100 5600 50  0001 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5150 5300 50  0001 C CNN
+F 3 "~" H 5150 5300 50  0001 C CNN
+F 4 "LTST-C191KSKT" H 5150 5300 50  0001 C CNN "Manufacturer Part Number"
+F 5 "160-1448-1-ND" H 5150 5300 50  0001 C CNN "Supplier 1 Part Number"
+	1    5150 5300
+	0    -1   -1   0   
+$EndComp
+Text Notes 5900 2650 0    50   ~ 0
+Power
+Text Notes 4900 5400 0    50   ~ 0
+Left
+Text Notes 5600 5400 0    50   ~ 0
+Right
+Wire Wire Line
+	4450 1900 4750 1900
+Wire Wire Line
+	4450 2500 5050 2500
+Wire Wire Line
+	5050 2200 5050 2500
+Connection ~ 5050 2500
+Wire Wire Line
+	5050 2500 5550 2500
+Wire Wire Line
+	5050 2500 5050 2600
 $EndSCHEMATC
