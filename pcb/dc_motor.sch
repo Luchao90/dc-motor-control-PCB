@@ -867,24 +867,18 @@ Text Notes 1750 5300 0    50   ~ 0
 ADC channel
 Text Notes 1750 5400 0    50   ~ 0
 ADC channel
-Wire Wire Line
-	1350 4300 1550 4300
-Wire Wire Line
-	1350 4400 1550 4400
-Wire Wire Line
-	1350 4500 1550 4500
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5FB3C4A6
 P 1150 4400
-F 0 "J3" H 1068 4717 50  0000 C CNN
-F 1 "Conn_01x04" H 1068 4626 50  0000 C CNN
+F 0 "J3" H 1068 3975 50  0000 C CNN
+F 1 "Conn_01x04" H 1068 4066 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 1150 4400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/ps/PS-10-07-001.pdf" H 1150 4400 50  0001 C CNN
 F 4 "0022232041" H 1150 4400 50  0001 C CNN "Manufacturer Part Number"
 F 5 "WM4202-ND" H 1150 4400 50  0001 C CNN "Supplier 1 Part Number"
 	1    1150 4400
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1500 5400 1350 5400
@@ -916,17 +910,6 @@ IS-B
 Text Label 1500 5300 0    50   ~ 0
 IS-A
 $Comp
-L power:GND #PWR023
-U 1 1 5FA79917
-P 1450 4600
-F 0 "#PWR023" H 1450 4350 50  0001 C CNN
-F 1 "GND" H 1700 4600 50  0000 R CNN
-F 2 "" H 1450 4600 50  0001 C CNN
-F 3 "" H 1450 4600 50  0001 C CNN
-	1    1450 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR026
 U 1 1 5FA788B6
 P 1450 5500
@@ -937,17 +920,11 @@ F 3 "" H 1450 5500 50  0001 C CNN
 	1    1450 5500
 	1    0    0    -1  
 $EndComp
-Text Label 1550 4500 0    50   ~ 0
-ALERT
-Text Label 1550 4400 0    50   ~ 0
-SCL
-Text Label 1550 4300 0    50   ~ 0
-SDA
 Text Label 1500 5200 0    50   ~ 0
 EN_2
-Text Label 1500 5100 0    50   ~ 0
-EN_1
 Text Label 1500 5000 0    50   ~ 0
+EN_1
+Text Label 1500 5100 0    50   ~ 0
 PWM2
 Text Label 1500 4900 0    50   ~ 0
 PWM1
@@ -4344,17 +4321,6 @@ $EndComp
 Wire Wire Line
 	6950 2450 6950 2850
 $Comp
-L power:Vdrive #PWR021
-U 1 1 5F6F43EA
-P 7800 4450
-F 0 "#PWR021" H 7600 4300 50  0001 C CNN
-F 1 "Vdrive" H 7815 4623 50  0000 C CNN
-F 2 "" H 7800 4450 50  0001 C CNN
-F 3 "" H 7800 4450 50  0001 C CNN
-	1    7800 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:Vdrive #PWR022
 U 1 1 5F707987
 P 9600 4450
@@ -4387,9 +4353,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 4600 7800 4600
 Connection ~ 8050 4600
-Connection ~ 7800 4600
-Wire Wire Line
-	7800 4600 7800 4450
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5F6FC1B7
@@ -4460,8 +4423,6 @@ F 5 "IPD90P03P4L04ATMA1CT-ND" H 2350 1950 50  0001 C CNN "Supplier 1 Part Number
 $EndComp
 Wire Wire Line
 	1350 5500 1450 5500
-Wire Wire Line
-	1450 4600 1350 4600
 Wire Wire Line
 	7200 2750 7200 2850
 Wire Wire Line
@@ -4587,4 +4548,39 @@ Wire Wire Line
 	5050 2500 5550 2500
 Wire Wire Line
 	5050 2500 5050 2600
+Connection ~ 7800 4600
+Wire Wire Line
+	7800 4600 7800 4450
+$Comp
+L power:Vdrive #PWR021
+U 1 1 5F6F43EA
+P 7800 4450
+F 0 "#PWR021" H 7600 4300 50  0001 C CNN
+F 1 "Vdrive" H 7815 4623 50  0000 C CNN
+F 2 "" H 7800 4450 50  0001 C CNN
+F 3 "" H 7800 4450 50  0001 C CNN
+	1    7800 4450
+	1    0    0    -1  
+$EndComp
+Text Label 1350 4200 0    50   ~ 0
+SCL
+Text Label 1350 4300 0    50   ~ 0
+SDA
+Text Label 1350 4400 0    50   ~ 0
+ALERT
+$Comp
+L power:GND #PWR023
+U 1 1 5FA79917
+P 1400 4600
+F 0 "#PWR023" H 1400 4350 50  0001 C CNN
+F 1 "GND" H 1650 4600 50  0000 R CNN
+F 2 "" H 1400 4600 50  0001 C CNN
+F 3 "" H 1400 4600 50  0001 C CNN
+	1    1400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4600 1400 4500
+Wire Wire Line
+	1400 4500 1350 4500
 $EndSCHEMATC
