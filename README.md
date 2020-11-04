@@ -16,5 +16,7 @@ This work is realize in context of "pcb design" course from embedded system care
 
 ## Schematic 
 
-![Schematic](pcb/Outputs/prints/dc_motor.pdf)
+[Schematic](pcb/Outputs/prints/dc_motor.pdf)
+
+![Schematic](pcb/Outputs/prints/dc_motor.svg)
 
