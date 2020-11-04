@@ -29,6 +29,3 @@ fp-info-cache
 
 # MacOS anoying file
 .DS_Store
-
-# Gerber and Dril Outpus
-Outputs/
