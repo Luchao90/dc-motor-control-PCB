@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DC MOTOR CONTROL"
-Date "2020-09-11"
+Date "2020-11-04"
 Rev "1.0"
 Comp "NOVOTEC ARGENTINA SRL"
 Comment1 "Author: Ing. Luciano Vittori"
@@ -605,108 +605,108 @@ NoConn ~ 3850 4800
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F66DB68
-P 5000 7300
-F 0 "H1" H 5000 7150 50  0000 C CNN
-F 1 "MountingHole" H 4950 7050 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5000 7300 50  0001 C CNN
-F 3 "~" H 5000 7300 50  0001 C CNN
-F 4 "NF" H 5000 7300 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 5000 7300 50  0001 C CNN "Supplier 1 Part Number"
-	1    5000 7300
+P 2900 7050
+F 0 "H1" H 2900 6900 50  0000 C CNN
+F 1 "MountingHole" H 2850 6800 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 2900 7050 50  0001 C CNN
+F 3 "~" H 2900 7050 50  0001 C CNN
+F 4 "NF" H 2900 7050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NF" H 2900 7050 50  0001 C CNN "Supplier 1 Part Number"
+	1    2900 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5F674F12
-P 5450 7300
-F 0 "H2" H 5450 7150 50  0000 C CNN
-F 1 "MountingHole" H 5500 7050 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 5450 7300 50  0001 C CNN
-F 3 "~" H 5450 7300 50  0001 C CNN
-F 4 "NF" H 5450 7300 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 5450 7300 50  0001 C CNN "Supplier 1 Part Number"
-	1    5450 7300
+P 3350 7050
+F 0 "H2" H 3350 6900 50  0000 C CNN
+F 1 "MountingHole" H 3400 6800 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 3350 7050 50  0001 C CNN
+F 3 "~" H 3350 7050 50  0001 C CNN
+F 4 "NF" H 3350 7050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NF" H 3350 7050 50  0001 C CNN "Supplier 1 Part Number"
+	1    3350 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5F679C7D
-P 6000 7300
-F 0 "H3" H 6000 7150 50  0000 C CNN
-F 1 "MountingHole" H 6050 7050 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 6000 7300 50  0001 C CNN
-F 3 "~" H 6000 7300 50  0001 C CNN
-F 4 "NF" H 6000 7300 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 6000 7300 50  0001 C CNN "Supplier 1 Part Number"
-	1    6000 7300
+P 3900 7050
+F 0 "H3" H 3900 6900 50  0000 C CNN
+F 1 "MountingHole" H 3950 6800 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 3900 7050 50  0001 C CNN
+F 3 "~" H 3900 7050 50  0001 C CNN
+F 4 "NF" H 3900 7050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NF" H 3900 7050 50  0001 C CNN "Supplier 1 Part Number"
+	1    3900 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5F67EA56
-P 6500 7300
-F 0 "H4" H 6450 7150 50  0000 L CNN
-F 1 "MountingHole" H 6350 7050 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 6500 7300 50  0001 C CNN
-F 3 "~" H 6500 7300 50  0001 C CNN
-F 4 "NF" H 6500 7300 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 6500 7300 50  0001 C CNN "Supplier 1 Part Number"
-	1    6500 7300
+P 4400 7050
+F 0 "H4" H 4350 6900 50  0000 L CNN
+F 1 "MountingHole" H 4250 6800 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 4400 7050 50  0001 C CNN
+F 3 "~" H 4400 7050 50  0001 C CNN
+F 4 "NF" H 4400 7050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NF" H 4400 7050 50  0001 C CNN "Supplier 1 Part Number"
+	1    4400 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5F6CECAA
-P 5000 7000
-F 0 "FID1" H 5085 7046 50  0000 L CNN
-F 1 "Fiducial" H 5085 6955 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 5000 7000 50  0001 C CNN
-F 3 "~" H 5000 7000 50  0001 C CNN
-F 4 "NF" H 5000 7000 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 5000 7000 50  0001 C CNN "Supplier 1 Part Number"
-	1    5000 7000
+P 2900 6750
+F 0 "FID1" H 2985 6796 50  0000 L CNN
+F 1 "Fiducial" H 2985 6705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 2900 6750 50  0001 C CNN
+F 3 "~" H 2900 6750 50  0001 C CNN
+F 4 "NF" H 2900 6750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NF" H 2900 6750 50  0001 C CNN "Supplier 1 Part Number"
+	1    2900 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 5F6CF4FC
-P 5500 7000
-F 0 "FID2" H 5585 7046 50  0000 L CNN
-F 1 "Fiducial" H 5585 6955 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 5500 7000 50  0001 C CNN
-F 3 "~" H 5500 7000 50  0001 C CNN
-F 4 "NF" H 5500 7000 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 5500 7000 50  0001 C CNN "Supplier 1 Part Number"
-	1    5500 7000
+P 3400 6750
+F 0 "FID2" H 3485 6796 50  0000 L CNN
+F 1 "Fiducial" H 3485 6705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3400 6750 50  0001 C CNN
+F 3 "~" H 3400 6750 50  0001 C CNN
+F 4 "NF" H 3400 6750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NF" H 3400 6750 50  0001 C CNN "Supplier 1 Part Number"
+	1    3400 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5F6D41FF
-P 6000 7000
-F 0 "FID3" H 6085 7046 50  0000 L CNN
-F 1 "Fiducial" H 6085 6955 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 6000 7000 50  0001 C CNN
-F 3 "~" H 6000 7000 50  0001 C CNN
-F 4 "NF" H 6000 7000 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 6000 7000 50  0001 C CNN "Supplier 1 Part Number"
-	1    6000 7000
+P 3900 6750
+F 0 "FID3" H 3985 6796 50  0000 L CNN
+F 1 "Fiducial" H 3985 6705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3900 6750 50  0001 C CNN
+F 3 "~" H 3900 6750 50  0001 C CNN
+F 4 "NF" H 3900 6750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NF" H 3900 6750 50  0001 C CNN "Supplier 1 Part Number"
+	1    3900 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5F6D8F8C
-P 6500 7000
-F 0 "FID4" H 6585 7046 50  0000 L CNN
-F 1 "Fiducial" H 6585 6955 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 6500 7000 50  0001 C CNN
-F 3 "~" H 6500 7000 50  0001 C CNN
-F 4 "NF" H 6500 7000 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 6500 7000 50  0001 C CNN "Supplier 1 Part Number"
-	1    6500 7000
+P 4400 6750
+F 0 "FID4" H 4485 6796 50  0000 L CNN
+F 1 "Fiducial" H 4485 6705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 4400 6750 50  0001 C CNN
+F 3 "~" H 4400 6750 50  0001 C CNN
+F 4 "NF" H 4400 6750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "NF" H 4400 6750 50  0001 C CNN "Supplier 1 Part Number"
+	1    4400 6750
 	1    0    0    -1  
 $EndComp
-Text Notes 5100 6800 0    79   ~ 0
+Text Notes 3000 6550 0    79   ~ 0
 Mechanical components
 Wire Notes Line width 10
 	11000 3500 11000 6000
@@ -931,14 +931,14 @@ PWM1
 Text Notes 1250 3800 0    79   Italic 0
 uC Interface
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 60307894
-P 4250 7150
-F 0 "#LOGO1" H 4250 7425 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 4250 6925 50  0001 C CNN
-F 2 "" H 4250 7150 50  0001 C CNN
-F 3 "~" H 4250 7150 50  0001 C CNN
-	1    4250 7150
+P 2050 6900
+F 0 "LOGO1" H 2050 7175 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 2050 6675 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 2050 6900 50  0001 C CNN
+F 3 "~" H 2050 6900 50  0001 C CNN
+	1    2050 6900
 	1    0    0    -1  
 $EndComp
 Text Label 7050 4950 0    50   ~ 0
