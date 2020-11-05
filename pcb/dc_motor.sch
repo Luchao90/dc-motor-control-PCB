@@ -209,8 +209,8 @@ F 0 "JP1" H 9150 1650 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 9000 1954 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9000 1750 50  0001 C CNN
 F 3 "" H 9000 1750 50  0001 C CNN
-F 4 "NF" H 9000 1750 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 9000 1750 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 9000 1750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 9000 1750 50  0001 C CNN "Supplier 1 Part Number"
 	1    9000 1750
 	1    0    0    1   
 $EndComp
@@ -610,8 +610,8 @@ F 0 "H1" H 2900 6900 50  0000 C CNN
 F 1 "MountingHole" H 2850 6800 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 2900 7050 50  0001 C CNN
 F 3 "~" H 2900 7050 50  0001 C CNN
-F 4 "NF" H 2900 7050 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 2900 7050 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 2900 7050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 2900 7050 50  0001 C CNN "Supplier 1 Part Number"
 	1    2900 7050
 	1    0    0    -1  
 $EndComp
@@ -623,8 +623,8 @@ F 0 "H2" H 3350 6900 50  0000 C CNN
 F 1 "MountingHole" H 3400 6800 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 3350 7050 50  0001 C CNN
 F 3 "~" H 3350 7050 50  0001 C CNN
-F 4 "NF" H 3350 7050 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 3350 7050 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 3350 7050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 3350 7050 50  0001 C CNN "Supplier 1 Part Number"
 	1    3350 7050
 	1    0    0    -1  
 $EndComp
@@ -636,8 +636,8 @@ F 0 "H3" H 3900 6900 50  0000 C CNN
 F 1 "MountingHole" H 3950 6800 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 3900 7050 50  0001 C CNN
 F 3 "~" H 3900 7050 50  0001 C CNN
-F 4 "NF" H 3900 7050 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 3900 7050 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 3900 7050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 3900 7050 50  0001 C CNN "Supplier 1 Part Number"
 	1    3900 7050
 	1    0    0    -1  
 $EndComp
@@ -649,8 +649,8 @@ F 0 "H4" H 4350 6900 50  0000 L CNN
 F 1 "MountingHole" H 4250 6800 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 4400 7050 50  0001 C CNN
 F 3 "~" H 4400 7050 50  0001 C CNN
-F 4 "NF" H 4400 7050 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 4400 7050 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 4400 7050 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 4400 7050 50  0001 C CNN "Supplier 1 Part Number"
 	1    4400 7050
 	1    0    0    -1  
 $EndComp
@@ -662,8 +662,8 @@ F 0 "FID1" H 2985 6796 50  0000 L CNN
 F 1 "Fiducial" H 2985 6705 50  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 2900 6750 50  0001 C CNN
 F 3 "~" H 2900 6750 50  0001 C CNN
-F 4 "NF" H 2900 6750 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 2900 6750 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 2900 6750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 2900 6750 50  0001 C CNN "Supplier 1 Part Number"
 	1    2900 6750
 	1    0    0    -1  
 $EndComp
@@ -675,8 +675,8 @@ F 0 "FID2" H 3485 6796 50  0000 L CNN
 F 1 "Fiducial" H 3485 6705 50  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3400 6750 50  0001 C CNN
 F 3 "~" H 3400 6750 50  0001 C CNN
-F 4 "NF" H 3400 6750 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 3400 6750 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 3400 6750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 3400 6750 50  0001 C CNN "Supplier 1 Part Number"
 	1    3400 6750
 	1    0    0    -1  
 $EndComp
@@ -688,8 +688,8 @@ F 0 "FID3" H 3985 6796 50  0000 L CNN
 F 1 "Fiducial" H 3985 6705 50  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3900 6750 50  0001 C CNN
 F 3 "~" H 3900 6750 50  0001 C CNN
-F 4 "NF" H 3900 6750 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 3900 6750 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 3900 6750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 3900 6750 50  0001 C CNN "Supplier 1 Part Number"
 	1    3900 6750
 	1    0    0    -1  
 $EndComp
@@ -701,8 +701,8 @@ F 0 "FID4" H 4485 6796 50  0000 L CNN
 F 1 "Fiducial" H 4485 6705 50  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 4400 6750 50  0001 C CNN
 F 3 "~" H 4400 6750 50  0001 C CNN
-F 4 "NF" H 4400 6750 50  0001 C CNN "Manufacturer Part Number"
-F 5 "NF" H 4400 6750 50  0001 C CNN "Supplier 1 Part Number"
+F 4 "dnp" H 4400 6750 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 4400 6750 50  0001 C CNN "Supplier 1 Part Number"
 	1    4400 6750
 	1    0    0    -1  
 $EndComp
@@ -938,6 +938,8 @@ F 0 "LOGO1" H 2050 7175 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 2050 6675 50  0001 C CNN
 F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 2050 6900 50  0001 C CNN
 F 3 "~" H 2050 6900 50  0001 C CNN
+F 4 "dnp" H 2050 6900 50  0001 C CNN "Manufacturer Part Number"
+F 5 "dnp" H 2050 6900 50  0001 C CNN "Supplier 1 Part Number"
 	1    2050 6900
 	1    0    0    -1  
 $EndComp
