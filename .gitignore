@@ -23,3 +23,5 @@ fp-info-cache
 *.dsn
 *.ses
 
+# Zip folder
+*.zip
