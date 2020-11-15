@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DC MOTOR CONTROL"
-Date "2020-11-04"
-Rev "1.0"
+Date "2020-11-15"
+Rev "1.1"
 Comp "NOVOTEC ARGENTINA SRL"
 Comment1 "Author: Ing. Luciano Vittori"
 Comment2 "Reviewer: David Broin"
@@ -713,7 +713,7 @@ Wire Notes Line width 10
 Wire Notes Line width 10
 	11000 6000 6500 6000
 Text Notes 9000 4050 0    59   ~ 0
-Outputs capacity:\n1 dc motor bi directional between 1-4\n2 dc motor uni directional (1-2) (4-3)\n8-30 V @30A max current (PCB limited)\nPWM 30KHz max
+Outputs capacity:\n1 dc motor bi directional between 1-4\n2 dc motor uni directional (1-2) (4-3)\n8-30 V @20A max current (PCB limited)\nPWM 30KHz max
 $Comp
 L Device:R R16
 U 1 1 5FBEA5B1
@@ -1127,7 +1127,7 @@ P 9700 5050
 F 0 "Q3" H 9650 5550 50  0000 C CNN
 F 1 "BTN8962" H 9500 5450 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 9500 5500 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17" H 9650 5060 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BTN8962TA-Data-Sheet-rev10-Infineon.pdf?folderId=db3a30431ff98815012060aedcd46179&fileId=db3a30433fa9412f013fbe2d247a7bf5&ack=t" H 9650 5060 50  0001 C CNN
 F 4 "BTN8962TAAUMA1INCT-ND" H 9700 5050 50  0001 C CNN "manf#"
 F 5 "BTN8962TAAUMA1" H 9700 5050 50  0001 C CNN "digikey#"
 	1    9700 5050
@@ -3684,7 +3684,7 @@ C3 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 Text Notes 950  2050 0    59   Italic 0
-VCC:\n8-30v\n30A
+VCC:\n8-30v\n20A
 Wire Wire Line
 	6950 1750 6950 1950
 Wire Wire Line
@@ -3847,9 +3847,9 @@ P 1350 1850
 F 0 "J1" H 1350 2100 50  0000 C CNN
 F 1 "Conn_01x02" H 1350 2000 50  0000 C CNN
 F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 1350 1850 50  0001 C CNN
-F 3 "~" H 1350 1850 50  0001 C CNN
-F 4 "1837980000" H 1350 1850 50  0001 C CNN "manf#"
-F 5 "281-8216-ND" H 1350 1850 50  0001 C CNN "digikey#"
+F 3 "https://www.we-online.de/katalog/datasheet/6913115000xx.pdf" H 1350 1850 50  0001 C CNN
+F 4 "691311500002" H 1350 1850 50  0001 C CNN "manf#"
+F 5 "732-2052-ND" H 1350 1850 50  0001 C CNN "digikey#"
 	1    1350 1850
 	-1   0    0    -1  
 $EndComp
@@ -4318,7 +4318,7 @@ P 7700 5050
 F 0 "Q2" H 7250 5550 50  0000 L CNN
 F 1 "BTN8962" H 7250 5450 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 7500 5500 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17" H 7650 5060 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BTN8962TA-Data-Sheet-rev10-Infineon.pdf?folderId=db3a30431ff98815012060aedcd46179&fileId=db3a30433fa9412f013fbe2d247a7bf5&ack=t" H 7650 5060 50  0001 C CNN
 F 4 "BTN8962TAAUMA1INCT-ND" H 7700 5050 50  0001 C CNN "manf#"
 F 5 "BTN8962TAAUMA1" H 7700 5050 50  0001 C CNN "digikey#"
 	1    7700 5050
@@ -4579,9 +4579,9 @@ P 8550 4350
 F 0 "J2" V 8767 4296 50  0000 C CNN
 F 1 "Conn_01x02" V 8676 4296 50  0000 C CNN
 F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 8550 4350 50  0001 C CNN
-F 3 "~" H 8550 4350 50  0001 C CNN
-F 4 "1837980000" H 8550 4350 50  0001 C CNN "manf#"
-F 5 "281-8216-ND" H 8550 4350 50  0001 C CNN "digikey#"
+F 3 "https://www.we-online.de/katalog/datasheet/6913115000xx.pdf" H 8550 4350 50  0001 C CNN
+F 4 "691311500002" H 8550 4350 50  0001 C CNN "manf#"
+F 5 "732-2052-ND" H 8550 4350 50  0001 C CNN "digikey#"
 	1    8550 4350
 	0    -1   -1   0   
 $EndComp
@@ -4592,9 +4592,9 @@ P 8750 4350
 F 0 "J5" V 8714 4162 50  0000 R CNN
 F 1 "Conn_01x02" V 8623 4162 50  0000 R CNN
 F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 8750 4350 50  0001 C CNN
-F 3 "~" H 8750 4350 50  0001 C CNN
-F 4 "1837980000" H 8750 4350 50  0001 C CNN "manf#"
-F 5 "281-8216-ND" H 8750 4350 50  0001 C CNN "digikey#"
+F 3 "https://www.we-online.de/katalog/datasheet/6913115000xx.pdf" H 8750 4350 50  0001 C CNN
+F 4 "691311500002" H 8750 4350 50  0001 C CNN "manf#"
+F 5 "732-2052-ND" H 8750 4350 50  0001 C CNN "digikey#"
 	1    8750 4350
 	0    -1   -1   0   
 $EndComp

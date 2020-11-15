@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/luchao90/Documentos/Novotec/dc-motor-control-PCB/pcb/dc_motor.sch</source>
-    <date>dom 15 nov 2020 00:22:35</date>
+    <date>dom 15 nov 2020 12:08:30</date>
     <tool>Eeschema 5.1.8-db9833491~87~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>DC MOTOR CONTROL</title>
         <company>NOVOTEC ARGENTINA SRL</company>
-        <rev>1.0</rev>
-        <date>2020-11-04</date>
+        <rev>1.1</rev>
+        <date>2020-11-15</date>
         <source>dc_motor.sch</source>
         <comment number="1" value="Author: Ing. Luciano Vittori"/>
         <comment number="2" value="Reviewer: David Broin"/>
@@ -453,7 +453,7 @@
     <comp ref="Q3">
       <value>BTN8962</value>
       <footprint>Package_TO_SOT_SMD:TO-263-7_TabPin8</footprint>
-      <datasheet>https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17</datasheet>
+      <datasheet>https://www.infineon.com/dgdl/BTN8962TA-Data-Sheet-rev10-Infineon.pdf?folderId=db3a30431ff98815012060aedcd46179&amp;fileId=db3a30433fa9412f013fbe2d247a7bf5&amp;ack=t</datasheet>
       <fields>
         <field name="digikey#">BTN8962TAAUMA1</field>
         <field name="manf#">BTN8962TAAUMA1INCT-ND</field>
@@ -621,10 +621,10 @@
     <comp ref="J1">
       <value>Conn_01x02</value>
       <footprint>Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.de/katalog/datasheet/6913115000xx.pdf</datasheet>
       <fields>
-        <field name="digikey#">281-8216-ND</field>
-        <field name="manf#">1837980000</field>
+        <field name="digikey#">732-2052-ND</field>
+        <field name="manf#">691311500002</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -669,7 +669,7 @@
     <comp ref="Q2">
       <value>BTN8962</value>
       <footprint>Package_TO_SOT_SMD:TO-263-7_TabPin8</footprint>
-      <datasheet>https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17</datasheet>
+      <datasheet>https://www.infineon.com/dgdl/BTN8962TA-Data-Sheet-rev10-Infineon.pdf?folderId=db3a30431ff98815012060aedcd46179&amp;fileId=db3a30433fa9412f013fbe2d247a7bf5&amp;ack=t</datasheet>
       <fields>
         <field name="digikey#">BTN8962TAAUMA1</field>
         <field name="manf#">BTN8962TAAUMA1INCT-ND</field>
@@ -765,10 +765,10 @@
     <comp ref="J2">
       <value>Conn_01x02</value>
       <footprint>Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.de/katalog/datasheet/6913115000xx.pdf</datasheet>
       <fields>
-        <field name="digikey#">281-8216-ND</field>
-        <field name="manf#">1837980000</field>
+        <field name="digikey#">732-2052-ND</field>
+        <field name="manf#">691311500002</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -777,10 +777,10 @@
     <comp ref="J5">
       <value>Conn_01x02</value>
       <footprint>Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.we-online.de/katalog/datasheet/6913115000xx.pdf</datasheet>
       <fields>
-        <field name="digikey#">281-8216-ND</field>
-        <field name="manf#">1837980000</field>
+        <field name="digikey#">732-2052-ND</field>
+        <field name="manf#">691311500002</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>

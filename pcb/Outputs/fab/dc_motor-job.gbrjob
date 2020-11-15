@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.8-db9833491~87~ubuntu20.04.1"
     },
-    "CreationDate":  "2020-11-15T00:24:13-03:00"
+    "CreationDate":  "2020-11-15T12:16:06-03:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "dc_motor",
       "GUID": "64635f6d-6f74-46f7-922e-6b696361645f",
-      "Revision": "Rev: 1.0"
+      "Revision": "Rev: 1.1"
     },
     "Size":
     {
